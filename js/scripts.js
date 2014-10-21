@@ -5,6 +5,8 @@ $(document).foundation();
 // On page load, do this
 $(document).ready(function(){
   
-  $(.one).corner('bite');
+ $('#one').corner('rounded');
+  $('#two').corner('notch');
+  $('#three').corner('slide');
 
 });
